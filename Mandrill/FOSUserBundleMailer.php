@@ -127,7 +127,7 @@ class FOSUserBundleMailer implements MailerInterface
 		// Send message via Mandrill
 		$this->message->addTo($toEmail);
 		$this->message->setSubject($subject);
-		$this->message->setText($body);
+		$this->message->setHTML($body);
 		$this->message->setTrackClicks(false);
 
 		$this->dispatcher->send($this->message);
