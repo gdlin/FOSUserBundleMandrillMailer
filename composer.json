@@ -1,5 +1,5 @@
 {
-    "name": "turai/fosuserbundle-mandrill-mailer",
+    "name": "gdlin/fosuserbundle-mandrill-mailer",
     "type": "symfony-bundle",
     "description": "Symfony FOSUserBundle mailer for Mandrill",
     "keywords": ["Mandrill", "transaction mail", "transactional", "messages", "email", "FOS", "User bundle"],
